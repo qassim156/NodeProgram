@@ -1,5 +1,4 @@
-console.log(__dirname);
-console.log(process);
-setInterval(()=> {
-	console.log("hello");
-},1000);
+const names = require("./names");
+const sayHi = require("./sayHi");
+
+sayHi(names.john);

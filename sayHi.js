@@ -6,4 +6,5 @@ let david = "david";
 const sayHi = (name) => {
 	console.log(name);
 }
-sayHi(david);
+//exporting function as default
+module.exports = sayHi;
