@@ -1,4 +1,4 @@
-const {readFileSync, writeFileSync} = require("fs");
+const {readFile, writeFile} = require("fs");
 
 
-module.exports = {readFileSync, writeFileSync};
+module.exports = {readFile, writeFile};
