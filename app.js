@@ -8,9 +8,16 @@ const fs = require("./3-filesystem");
 console.log(fs.readFileSync("./content/subfolder/text.txt", "utf8"));
 
 //create a new file 
-fs.writeFileSync("./content/subfolder/created.txt", "qm");
+fs.writeFileSync(
+    "./content/subfolder/created.txt", 
+    "qm",
+    {flag: "a"},
+);
 
-console.log(fs.readFileSync("./content/subfolder/created.txt", "utf8"));
+console.log(fs.readFileSync(
+    "./content/subfolder/created.txt",
+    "utf8",
+));
 
 console.log(path.sep);
 //console.log(os);
