@@ -1,0 +1,2 @@
+this is a text file from node js
+this file consist of text

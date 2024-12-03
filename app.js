@@ -7,15 +7,9 @@ const fsSync = require("./4-filesystemSync");
 //imorting fs normal
 const fs = require('./3-filesystem');
 
+console.log(fsSync);
+console.log(fs);
 
-//this is to read file from the content folder
-console.log(fsSync.readFileSync("./content/subfolder/text.txt", "utf8"));
-
-//create a new file 
-fsSync.writeFileSync("./content/subfolder/created.txt", "qm");
-
-console.log(fsSync.readFileSync("./content/subfolder/created.txt", "utf8"));
-
-console.log(path.sep);
+// console.log(path.sep);
 //console.log(os);
 //sayHi(names.john);
