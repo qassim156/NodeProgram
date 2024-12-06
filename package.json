@@ -10,8 +10,17 @@
   "description": "This is to test, master and learn node js",
   "main": "1-os_test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qassim156/NodeProgram.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qassim156/NodeProgram/issues"
+  },
+  "homepage": "https://github.com/qassim156/NodeProgram#readme"
 }
