@@ -4,5 +4,14 @@
   },
   "dependencies": {
     "lodash": "^4.17.21"
-  }
+  },
+  "name": "nodeprogram",
+  "version": "1.0.0",
+  "description": "This is to test, master and learn node js",
+  "main": "1-os_test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
