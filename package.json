@@ -10,8 +10,7 @@
   "description": "This is to test, master and learn node js",
   "main": "1-os_test.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
